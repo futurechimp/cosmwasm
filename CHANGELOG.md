@@ -66,6 +66,12 @@ and this project adheres to
 [#697]: https://github.com/CosmWasm/cosmwasm/issues/697
 [#736]: https://github.com/CosmWasm/cosmwasm/pull/736
 
+### Deprecated
+
+- cosmwasm-std: `Context` is deprecated in favour of the new `MutResponse` trait
+  that adds mutable helpers to `InitResponse`, `MigrateResponse` and
+  `HandleResponse` directly.
+
 ## [0.13.2] - 2021-01-14
 
 ## Changed
